@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TreasureStats from '../src/TreasureStats';
 
 class App extends Component {
+
+
   render() {
     return (
       <div className="App">
@@ -17,12 +20,14 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn React. Now
           </a>
         </header>
+        <TreasureStats/>
       </div>
     );
   }
 }
+
 
 export default App;
